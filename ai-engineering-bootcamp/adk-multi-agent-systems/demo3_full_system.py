@@ -82,7 +82,7 @@ billing_agent = Agent(
 
 shipping_agent = RemoteA2aAgent(
     name="shipping_agent",
-    agent_card="http://localhost:8001",
+    agent_card="http://localhost:8001/.well-known/agent-card.json",
     description="Remote agent for shipping and delivery tracking via A2A protocol.",
 )
 

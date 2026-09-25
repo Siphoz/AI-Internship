@@ -131,7 +131,7 @@ def create_full_system_agent():
     tech = Agent(name="technical_agent", model=MODEL,
         description="Technical issues: bugs, crashes, performance.", instruction="Use search_knowledge_base and check_system_status.",
         tools=[search_knowledge_base, check_system_status])
-    shipping = RemoteA2aAgent(name="shipping_agent", agent_card="http://localhost:8001",
+    shipping = RemoteA2aAgent(name="shipping_agent", agent_card="http://localhost:8001/.well-known/agent-card.json",
         description="Remote agent for shipping and delivery tracking.")
     root = Agent(name="full_support_system", model=MODEL,
         instruction="Route to billing_agent_mcp, technical_agent, or shipping_agent. Never answer directly.",
