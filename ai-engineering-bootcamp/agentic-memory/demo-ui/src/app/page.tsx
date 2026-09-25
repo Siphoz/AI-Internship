@@ -4,7 +4,6 @@ import { useState } from "react";
 import { Demo1Context } from "@/components/demos/Demo1Context";
 import { Demo2VectorGraph } from "@/components/demos/Demo2VectorGraph";
 import { Demo3Compaction } from "@/components/demos/Demo3Compaction";
-import { Demo4SearchSynth } from "@/components/demos/Demo4SearchSynth";
 import { Demo5SelfEdit } from "@/components/demos/Demo5SelfEdit";
 import { Demo6Checkpoint } from "@/components/demos/Demo6Checkpoint";
 import { Demo7Poison } from "@/components/demos/Demo7Poison";
@@ -13,7 +12,6 @@ const DEMOS = [
   { id: "1", label: "Context budget", Component: Demo1Context },
   { id: "2", label: "Vector vs graph", Component: Demo2VectorGraph },
   { id: "3", label: "Compaction rules", Component: Demo3Compaction },
-  { id: "4", label: "Search vs synthesis", Component: Demo4SearchSynth },
   { id: "5", label: "Self-editing memory", Component: Demo5SelfEdit },
   { id: "6", label: "Kill mid-run", Component: Demo6Checkpoint },
   { id: "7", label: "Memory poisoning", Component: Demo7Poison },
@@ -35,7 +33,7 @@ export default function Home() {
             Agentic Memory Lab
           </h1>
           <p className="mt-1.5 text-[13px] leading-snug text-slate-500">
-            Seven demos you can run yourself. No API key needed.
+            Six demos you can run yourself. No API key needed.
           </p>
         </div>
 

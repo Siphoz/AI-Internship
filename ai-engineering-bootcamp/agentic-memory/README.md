@@ -17,10 +17,9 @@ Open [http://localhost:3000](http://localhost:3000). No API key needed.
 | 1 | Context budget |
 | 2 | Vector search vs graph lookup |
 | 3 | Rules after chat compaction |
-| 4 | Search vs synthesis |
-| 5 | Self-editing memory |
-| 6 | Crash mid-run and resume |
-| 7 | Memory poisoning |
+| 4 | Self-editing memory |
+| 5 | Crash mid-run and resume |
+| 6 | Memory poisoning |
 
 ## Notebook (optional code path)
 
